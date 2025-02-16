@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "esModuleInterop": true, // Make sure this is set to true
+    "skipLibCheck": true,    // Skip library checks
+    "strict": true,          // Enable strict type checking
+    "noImplicitAny": false,  // Allow implicit 'any' type
+    "outDir": "./dist"       // Ensure your compiled files go to the right place
+  },
+  "include": ["src/**/*.ts"]
+}
